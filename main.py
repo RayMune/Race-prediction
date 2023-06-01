@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 
 # Read the Excel sheet into Python.
-df = pd.read_excel("f1_data.xlsx")
+df = pd.read_excel("F1.xlsx")
 
 # Create a new column for the predicted finishing position.
 df["predicted_finishing_position"] = np.nan
